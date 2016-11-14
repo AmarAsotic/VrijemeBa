@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.android.sunshine.app;
+package com.example.android.vrijemeba.app;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
@@ -25,10 +25,10 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(com.example.android.vrijemeba.app.R.layout.activity_main);
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
-                    .add(R.id.container, new ForecastFragment())
+                    .add(com.example.android.vrijemeba.app.R.id.container, new ForecastFragment())
                     .commit();
         }
     }
@@ -36,7 +36,7 @@ public class MainActivity extends ActionBarActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
+        getMenuInflater().inflate(com.example.android.vrijemeba.app.R.menu.main, menu);
         return true;
     }
 
@@ -48,7 +48,7 @@ public class MainActivity extends ActionBarActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == com.example.android.vrijemeba.app.R.id.action_settings) {
             return true;
         }
 
