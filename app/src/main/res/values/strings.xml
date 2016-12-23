@@ -18,5 +18,22 @@
     <string name="action_refresh" translatable="false">Refresh</string>
     <string name="title_activity_detail">Details</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_settings">Settings</string>
+    <!-- [CHAR LIMIT=30]-->
+    <string name="pref_location_label">Location</string>
+    <string name="pref_location_key" translatable="false">location</string>
+    <string name="pref_location_default" translatable="false">71210</string>
+    <string name="pref_units_label">Temperature Units</string>
+    <string name="pref_units_key" translatable="false">units</string>
+    <string name="pref_units_metric" translatable="false">metric</string>
+    <!-- Label for metric option in temperature unit preference [CHAR LIMIT=25] -->
+        <string name="pref_units_label_metric">Metric</string>
+
+        <!-- Label for imperial option in temperature unit preference [CHAR LIMIT=25] -->
+        <string name="pref_units_label_imperial">Imperial</string>
+    <!-- Value in SharedPreferences for imperial temperature unit option [CHAR LIMIT=NONE] -->
+        <string name="pref_units_imperial" translatable="false">imperial</string>
+    <string name="map_location">Map Location</string>
+    <string name="action_share">Share</string>
 
 </resources>
