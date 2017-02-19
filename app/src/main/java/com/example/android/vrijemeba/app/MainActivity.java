@@ -40,6 +40,7 @@ public class MainActivity extends ActionBarActivity {
                     .add(R.id.container, new ForecastFragment(), FORECASTFRAGMENT_TAG)
                     .commit();
         }
+        getSupportActionBar().setElevation(0f); // brise shadow ispod main menia
     }
 
     @Override
